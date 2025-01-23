@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabrillo Office Automation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0069d9;
+    }
+
+    .nav-button {
+      background-color: #0056b3;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .nav-button:hover {
+      background-color: #004080;
+    }
+
+    main {
+      padding: 20px;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      flex: 1; /* Crucial for flexible height */
+    }
+
+    footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .section {
+      display: none;
+    }
+
+    .show {
+      display: block;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gabrillo Office Automation</h1>
+    <p>Streamlining Office Processes with Modern Solutions</p>
+  </header>
+
+  <nav>
+    <button class="nav-button" onclick="showSection('home')">Home</button>
+    <button class="nav-button" onclick="showSection('credits')">Credits</button>
+    <button class="nav-button" onclick="showSection('profile')">Profile</button>
+    <button class="nav-button" onclick="showSection('settings')">Settings</button>
+    <button class="nav-button" onclick="showSection('advancedAutomation')">Advanced Automation</button>
+  </nav>
+
+  <main>
+    <section id="home" class="section show">
+      <h2>Welcome to Gabrillo Office Automation</h2>
+      <p>Office automation refers to the implementation of technology to handle various office tasks that traditionally were done manually.  With the help of automation tools, we can improve efficiency, reduce costs, and ensure that employees can focus on more valuable tasks. This is especially important in today's fast-paced business world, where companies are constantly striving for innovation and better performance. By adopting office automation, businesses can speed up operations, reduce human errors, and maintain a competitive edge.</p>
+
+      <h3>Advantages of Office Automation</h3>
+      <ul>
+        <li>Increased Efficiency: Automation speeds up repetitive tasks, freeing up employees for more strategic work.</li>
+        <li>Improved Accuracy: Automation reduces human error, leading to more reliable results.</li>
+        <li>Cost Reduction: Automating tasks can lead to lower labor costs and increased productivity.</li>
+        <li>Better Collaboration: Shared tools and platforms enhance teamwork and communication.</li>
+        <li>Enhanced Decision-Making: Data-driven insights from automated systems support better strategic decisions.</li>
+        <li>Improved Customer Service: Automated systems can provide faster and more consistent customer support.</li>
+        <li>Increased Productivity: Streamlined workflows and reduced manual tasks boost overall productivity.</li>
+        <li>Better Scalability: Automated systems can easily adapt to growing business needs.</li>
+        <li>Reduced Paperwork: Digitalization minimizes paper usage, saving costs and space.</li>
+        <li>Improved Data Management: Centralized data storage and management improve data accessibility and security.</li>
+        <li>Better Compliance: Automated systems can help businesses meet regulatory requirements more easily.</li>
+      </ul>
+
+      <h3>Disadvantages of Office Automation</h3>
+      <ul>
+        <li>High Initial Investment: Implementing new systems can require significant upfront costs.</li>
+        <li>Technical Issues: System failures or glitches can disrupt operations.</li>
+        <li>Job Displacement Concerns: Automation may lead to concerns about job security for some employees.</li>
+        <li>Security Risks: Automated systems can be vulnerable to cyberattacks if not properly secured.</li>
+        <li>Data Privacy Concerns: Handling sensitive data requires robust security measures.</li>
+        <li>Training and Implementation Challenges: Employees need adequate training to effectively use new systems.</li>
+        <li>Dependence on Technology: Over-reliance on technology can create vulnerabilities if systems fail.</li>
+        <li>Integration Complexity: Integrating different automation tools can be challenging.</li>
+        <li>Maintenance Costs: Ongoing maintenance and updates can add to the overall cost.</li>
+        <li>Lack of Personal Touch: Automation can sometimes lead to a less personal customer experience.</li>
+      </ul>
+
+      <h3>Examples of Office Automation Tools</h3>
+      <ul>
+        <li><b>Microsoft 365:</b> Word, Excel, PowerPoint, Outlook, Teams, SharePoint.</li>
+        <li><b>Google Workspace:</b> Docs, Sheets, Slides, Gmail, Meet, Drive.</li>
+        <li><b>Asana:</b> Project management and task assignment.</li>
+        <li><b>Trello:</b> Kanban-style project management.</li>
+        <li><b>Monday.com:</b> Visual project management and workflow automation.</li>
+        <li><b>Salesforce:</b> Customer Relationship Management (CRM).</li>
+        <li><b>HubSpot:</b> Inbound marketing and sales automation.</li>
+        <li><b>Zapier/IFTTT:</b> Workflow automation between different apps.</li>
+        <li><b>Adobe Acrobat Pro:</b> Document management and automation.</li>
+      </ul>
+    </section>
+
+    <section id="credits" class="section">
+      <h2>Credits</h2>
+      <p>This project was developed by the following team members:</p>
+      <ul>
+        <li><strong>Edrich Jrue N. Gabrillo</strong> - Visual Graphics</li>
+        <li><strong>Jadrique Quiambao</strong> - Visual Graphics</li>
+        <li><strong>Peter Alfonse</strong> - Office Manager</li>
+      </ul>
+      <p>Special thanks to the tools and technologies used, such as HTML, CSS, JavaScript, and Google Drive for making this project possible.</p>
+    </section>
+
+    <section id="profile" class="section">
+      <h2>Profile</h2>
+      <p>Team Member Profiles:</p>
+      <ul>
+        <li><b>Name:</b> Edrich Jrue N. Gabrillo<br><b>Role:</b> Visual Artist and Designer</li>
+        <li><b>Name:</b> Jadrique Quiambao<br><b>Role:</b> Visual Artist and Designer</li>
+        <li><b>Name:</b> Peter Alfonse<br><b>Role:</b> Office Manager</li>
+      </ul>
+    </section>
+
+    <section id="settings" class="section">
+      <h2>Settings</h2>
+      <p>Manage your preferences for office automation tools and features:</p>
+      <form>
+        <label for="theme">Select Theme:</label>
+        <select id="theme" name="theme">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select><br>
+        <label for="notifications">Enable Notifications:</label>
+        <input type="checkbox" id="notifications" name="notifications" checked><br>
+        <button type="submit">Save Settings</button>
+      </form>
+    </section>
+
+    <section id="advancedAutomation" class="section">
+      <h2>Advanced Office Automation</h2>
+      <p>This section will cover advanced topics in office automation, such as Robotic Process Automation (RPA), AI-powered tools for document processing and analysis, and the integration of office automation with IoT devices.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gabrillo Office Automation. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.classList.remove('show'));
+      document.getElementById(sectionId).classList.add('show');
+    }
+  </script>
+</body>
+</html>
